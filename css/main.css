@@ -1,0 +1,218 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?-ee0u0f');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix-ee0u0f') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?-ee0u0f') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?-ee0u0f') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?-ee0u0f#icomoon') format('svg');
+}
+
+
+ body {margin: 0; padding: 0;}
+
+ .container {
+ 	margin: 0 auto;
+	width: 90%;
+}
+
+.clear {clear: both;}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* C O N T E N T ---------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+ /* font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif; */
+header {
+	background: #009de0;
+	width: 100%;
+	position: fixed;
+}
+
+ a.logo img {
+ 	padding: 8px 0 4px 0;
+ }
+
+#centro-practicas, #title-user {
+	display: inline-block;
+	float: right;
+	padding: 10px 0 0 0;
+	margin: 0;
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-weight: normal;
+}
+
+.sub-header {
+	padding-top: 50px;
+}
+
+#title-user {
+	font-size: 60px;
+	color: rgb(58, 58, 58);
+	float: none;
+}
+
+.subtitle {
+	margin: 0;
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: rgb(131, 131, 131);
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.content {
+	min-height: 450px;
+	background: #F3F3F3;
+	padding-top: 10px;
+}
+
+.clase {
+	background: rgb(226, 226, 226);
+	border: 1px solid #DBDBDB;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.title-clase {
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0;
+	display: inline-block;
+}
+
+.title-archivos {
+	vertical-align: top;
+}
+
+.iconos {
+	color: rgb(22, 22, 22);
+	text-decoration: none;
+	padding-left: 20px;
+	vertical-align: middle;
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+}
+
+.iconos img {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.btn-descargar {
+	float: right;
+	height: 35px;
+	padding: 5px 15px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	text-shadow: 0 1px rgba(0,0,0,0.08);
+	background: #4ebd4a;
+	box-sizing: border-box;
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.btn-descargar:hover {
+	color: white;
+	background: #6bc868;
+}
+
+.btn-descargar:active {
+	color: white;
+	background: #3c9b39;
+}
+
+.btn-descargar a {
+	text-decoration: none;
+	color: white;
+}
+
+.temario {
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.lista-temario {
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+footer p {
+	font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+	margin: 200px 0 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.title-clase {
+		font-size: 20px;
+	}
+
+	footer p {
+		margin: 460px 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.btn-descargar {
+		float: none;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#centro-practicas {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 384px) {
+	header {
+		text-align: center;
+	}
+
+	#centro-practicas {
+		float: none;
+		margin: -10px 0 15px 0;
+	}
+
+	.sub-header {
+		padding-top: 100px;
+		text-align: center;
+	}
+
+	#title-user {
+		font-size: 40px;
+	}
+
+	.subtitle {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.subtitle {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 240px) {
+	#title-user {
+		font-size: 30px;
+	}
+}
